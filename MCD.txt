@@ -1,0 +1,52 @@
+II - Modèle Conceptuel de Données (MCD) :
+  1)Les différentes entités et les propriétés de
+chacun d’entre elles:
+_Propriétaires
+  *Nom_pro
+  *Prénom_pro
+  *Sexe_Pro
+  *Date_Naissance_Pro
+  *Tel_Pro
+  *Email_Pro
+_Co-propriétaires
+  *Nom_Co
+  *Prénom_Co
+  *Sexe_Co
+  *Date_Naissance_Co
+  *Tel_Co
+  *Email_Co
+_Domicile
+  *Adresse_Dom
+  *Nb_Chambre_Dom
+  *Couleur_Dom
+  *Date_Construction_Dom
+  *Region_Dom
+  *Commune_Dom
+  *Type_Dom
+_Pièces
+  *Surface_Pièce
+  *Nb_Portes_Pièce
+  *Nb_Fenêtres_Pièce
+  *Occupant_Pièce
+  *Nb_Objet_Pièce
+_objet
+  *Numéro_Serie_Objet
+  *Type_Objet
+  *Emplacement_Objet
+_Membre
+  *Nom_Membre
+  *Prénom_Membre
+  *Nb_Membre
+  *Sexe_Membre
+  *Age_Membre
+  *Tel_Membre
+  *Email_Membre
+_Visiteurs
+  *Nom_Visiteur
+  *Prénom_Visiteur
+  *Sexe_Visiteur
+  *Age_Visiteur
+  *Tel_Visiteur
+  *Email_Visiteur
+  
+  2)Interaction de chaque entité:

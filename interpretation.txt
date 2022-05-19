@@ -1,0 +1,53 @@
+ I- Diagramme de cas d’utilisation :
+
+1)Les différents acteurs de l’application:
+
+ a/les acteurs primaires:
+  -le propriétaire
+  -le co-propriétaire
+  -les membres
+  -les visiteurs
+
+ b/les acteurs secondaires:
+  -Google API
+
+2)La liste des fonctionnalités pour chaque acteur:
+
+ _Propriétaire:-Créer un domicile.
+	       -Modifier les rôles user.
+	       -Rechercher l'adresse.
+
+ _Co-propriétaire:-Créer des nouvelles pièces.
+	          -Ajouter un objet connecter.
+	          -Mettre en place un objet dans la pièce.
+
+ _Membre:-Récupérer la liste des objets connectés.
+	 -Récupérer la liste des pièces.
+	 -Modifier un objet connecter.
+
+ _Visiteur:-Authentifier.
+
+3)Les fonctionnalités obligatoire (include) et facultatives (extend):
+  a/include:
+-Rechercher un adresse.
+-Mettre en place un objet connecter pour le càs d'un co-propriétaire.
+-Récupérer la liste des objets connectés.
+   
+  b/extend:
+-Mettre en place un objet connecter pour le càs d'un membre.
+-Modifier un objet connecté.
+
+  INTERPRETATION DU DIAGRAMME DE CAS D'UTILISATION:
+
+Le propriétaire crée son domicile et il peut aussi modifier les rôles des
+user de son domicile.Il doit obligatoirement rechercher une adresse 
+propre à son domicile.Le co-propriétaire ,lui,il peut créer des nouvelles pièces
+au sein du domicile et il peut en même temps y ajouter un objet connecter.
+Et doit obligatoirement mettre en place un objet dans une pièce.Les membres
+quand à eux récupèrent la liste des piéces et doivent impérativement 
+récupérer la liste des objets connectés.Ils peuvent aussi éventuellement
+mettre en place un objet dans une pièce et modifier un objet connecter.
+En tennant compte de la géneralisation, le propriétaire peut à lui tout
+seul réaliser tous les fonctions de chaque acteur préciser en haut.Sauf,
+pour le càs du visteur qui doit s'authentifier pour béneficier à un objet
+connecté.  
